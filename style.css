@@ -60,7 +60,7 @@ section {
 
 .heading {
     text-align: center;
-    color: red;
+    color: #fff39e;;
     background-clip: text;
     font-size: 3.5rem;
     text-transform: uppercase;
@@ -287,7 +287,59 @@ header label {
     color: #fff;
 }
 
+.review {
+    background: var(--black);
+}
 
+.review .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.review .box-container .box {
+    background:beige;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    border: .1rem solid rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+}
+
+.review .box-container .box .fa-quote-right {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 8rem;
+    opacity: .3;
+}
+
+.review .box-container .box .user img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 7rem;
+    width: 7rem;
+    margin-top: 2rem;
+}
+
+.review .box-container .box .user h3 {
+    font-size: 2rem;
+}
+
+.review .box-container .box .user .stars {
+    color: #a9a90a;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.review .box-container .box .comment {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
 
 
 
