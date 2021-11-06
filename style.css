@@ -364,7 +364,7 @@ header label {
     padding-bottom: 3rem;
 }
 
-.pricing .box-container .box:nth-child(2),
+.pricing .box-container .box:nth-child(0),
 .pricing .box-container .box:hover {
     border:.2rem solid red;
 }
