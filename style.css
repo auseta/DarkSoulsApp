@@ -4,9 +4,6 @@
 :root {
     --black: #000;
     --shiny-yellow: #e7d826;
-    --purple: #814096;
-    --pink: #f83292;
-    --gradient: linear-gradient(90deg, var(var(--purple), var(var(--pink))))
 }
 
 * {
@@ -60,7 +57,7 @@ section {
 
 .heading {
     text-align: center;
-    color: #fff39e;;
+    color: #fff39e;
     background-clip: text;
     font-size: 3.5rem;
     text-transform: uppercase;
