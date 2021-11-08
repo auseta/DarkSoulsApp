@@ -10,26 +10,33 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- mis estilos -->
-    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./register.css">
     <title>Dark Souls App</title>
 </head>
 
 <body>
     <div class="center">
-        <h1>Login</h1>
+        <h1>Crea tu cuenta</h1>
         <form method="POST">
             <div class="text-field">
                 <input type="text" required>
                 <label>Nombre de Usuario</label>
             </div>
             <div class="text-field">
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="text-field">
                 <input type="password" required>
                 <label>Password</label>
             </div>
-            <div class="pass">Olvidaste tu contraseña?</div>
-            <input type="submit" value="Login">
+            <div class="text-field">
+                <input type="password" required>
+                <label>Confirmar la contraseña</label>
+            </div>
+            <input type="submit" value="Listo!">
             <div class="sign-up">
-                No estas registrado? <a href="./register.html">Registrarse</a>
+                Ya tienes una cuenta? <a href="./login.html">Login</a>
             </div>
             <div class="back">
                 <a href="./index.html">Volver</a>

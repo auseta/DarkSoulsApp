@@ -118,6 +118,9 @@ input[type="submit"]:hover {
   text-decoration: underline;
 }
 
+
+
+
 /* mediaqueries */
 
 @media (max-width: 480px) {
@@ -132,7 +135,7 @@ input[type="submit"]:hover {
     margin: 0 0 0 28px;
     width: 70%;
     height: 40px;
-    margin: 0 p;
+    margin: 0 p
   }
 }
 
@@ -142,7 +145,7 @@ input[type="submit"]:hover {
   }
 
   .pass {
-    text-align: center;
+      text-align: center;
   }
 
   input[type="submit"] {
